@@ -27,7 +27,7 @@ class CustomAppBar extends StatelessWidget {
           ),
           SizedBox(width: 5),
           Text(
-            "NutrinCoffee",
+            "CoffeeTime",
             style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
           ),
           Spacer(),
@@ -47,12 +47,8 @@ class CustomAppBar extends StatelessWidget {
             title: "Delivery",
             press: () {},
           ),
-          MenuItem(
-            title: "Entrar",
-            press: () {},
-          ),
           DefaultButton(
-            text: "Começar",
+            text: "Entrar",
             press: () {},
           ),
         ],

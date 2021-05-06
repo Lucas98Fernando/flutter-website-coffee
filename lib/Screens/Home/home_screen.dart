@@ -21,7 +21,13 @@ class HomeScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             CustomAppBar(),
+            // Cobrindo 1/3 do espaço livre
+            Spacer(),
             Body(),
+            // Cobrindo 2/3 do espaço livre
+            Spacer(
+              flex: 2,
+            ),
           ],
         ),
       ),

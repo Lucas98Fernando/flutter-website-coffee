@@ -22,7 +22,7 @@ class MenuItem extends StatelessWidget {
         child: Text(
           title.toUpperCase(),
           style: TextStyle(
-            color: kTextColor.withOpacity(0.3),
+            color: kTextColor.withOpacity(0.5),
             fontWeight: FontWeight.bold,
           ),
         ),
